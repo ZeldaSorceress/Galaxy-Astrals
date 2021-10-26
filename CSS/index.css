@@ -1,0 +1,34 @@
+h3 {
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+.main {
+    padding: 14px 16px;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.leader {
+    display: inline-block;
+    background-color: #363636;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+}
+.leader h3 {
+    background-color: #363636;
+    border-color: black;
+    border-style: solid;
+    padding: 14px 16px;
+}
+.leader p {
+    background-color: #363636;
+    border-color: black;
+    border-style: solid;
+    padding: 14px 16px;
+    float: left;
+    width: 90%;
+    object-fit: fill;
+}
