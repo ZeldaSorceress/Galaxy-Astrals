@@ -4,31 +4,40 @@ h3 {
 }
 .main {
     padding: 14px 16px;
-    width: 100%;
     display: inline-block;
     overflow: hidden;
+    width: 100%;
 }
 
 .leader {
-    display: inline-block;
+    float: left;
+    padding: 14px 16px;
     background-color: #363636;
-    padding: 10px;
+    width: 12%;
+    position: fixed;
+    overflow: hidden;
     border-color: black;
     border-style: solid;
-    width: 500px;
+    box-shadow: 1px 1px 10px black;
 }
 .leader h3 {
-    background-color: #363636;
+    background-color: black;
     border-color: black;
     border-style: solid;
     padding: 14px 16px;
+    box-shadow: 1px 1px 10px black;
 }
-.leader p {
-    background-color: #363636;
+.leader button {
+    color: white;
+    text-shadow: 1px 1px 10px white;
+    text-decoration: none;
+    font-size: 22px;
+    float: left;
+    width: 100%;
+    background-color: black;
     border-color: black;
     border-style: solid;
-    padding: 14px 16px;
-    float: left;
-    width: 90%;
-    object-fit: fill;
+    box-shadow: 1px 1px 10px black;
+    font-size: 16px;
+    padding: 10px;
 }
